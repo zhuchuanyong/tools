@@ -1,0 +1,21 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "一些项目级别的工具集，主要尝试研发提效",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub:prettier": "pnpm publish --filter \"@zcytools/prettier-standard-config\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuchuanyong/tools.git"
+  },
+  "keywords": [],
+  "author": "zhuchuanyong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuchuanyong/tools/issues"
+  },
+  "homepage": "https://github.com/zhuchuanyong/tools#readme"
+}
