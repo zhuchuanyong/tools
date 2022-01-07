@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": ".prettierrc.json",
   "license": "MIT",
+  "description": "在个人项目中统一 prettier 配置，将之封装为 npm 包",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
