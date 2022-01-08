@@ -11,6 +11,6 @@ module.exports = {
     sourceType: "module",
   },
 
-  extends: ["eslint:recommended",'standard'],
+  extends: ["eslint:recommended"],
   rules: Object.assign({}, common),
 };

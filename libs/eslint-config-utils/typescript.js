@@ -4,7 +4,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   extends: [
-    'eslint:recommended',
+    "./base.js",
     'plugin:@typescript-eslint/recommended',
   ],
 };
