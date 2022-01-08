@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub:prettier": "pnpm publish --filter \"@zcytools/prettier-standard-config\""
+    "pub:prettier": "pnpm publish --filter \"@zcytools/prettier-standard-config\"",
+    "pub:eslint": "pnpm publish --filter \"@zcytools/eslint-config-utils\""
+    
   },
   "repository": {
     "type": "git",
