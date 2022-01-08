@@ -23,6 +23,12 @@ module.exports = {
   extends: ['utils/index'],
 };
 ```
+- **ts**
+```js
+module.exports = {
+  extends: ['utils/typescript'],
+};
+```
 
 
 ## tips 

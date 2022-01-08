@@ -1,6 +1,6 @@
 {
   "name": "@zcytools/eslint-config-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "description": "在个人项目中统一 eslint 配置，将之封装为 npm 包",
@@ -19,10 +19,13 @@
   },
   "homepage": "https://github.com/zhuchuanyong/tools#readme",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
     "eslint": "^8.6.0",
     "eslint-config-standard": "^17.0.0-0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-n": "^14.0.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "^4.5.4"
   }
 }
