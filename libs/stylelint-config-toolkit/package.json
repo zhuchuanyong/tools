@@ -1,13 +1,12 @@
 {
   "name": "@zcytools/stylelint-config-toolkit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
   "description": "在个人项目中统一 stylelint 配置，将之封装为 npm 包",
-  "devDependencies": {
+  "dependencies": {
     "postcss": "^8.4.12",
     "postcss-scss": "^4.0.3",
-    "stylelint": "^14.6.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "^3.0.0",
     "stylelint-config-standard": "^25.0.0"
