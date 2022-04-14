@@ -1,6 +1,6 @@
 {
   "name": "@zcytools/stylelint-config-toolkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "description": "在个人项目中统一 stylelint 配置，将之封装为 npm 包",
