@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pub:prettier": "pnpm publish --filter \"@zcytools/prettier-standard-config\"",
-    "pub:eslint": "pnpm publish --filter \"@zcytools/eslint-config-utils\""
+    "pub:eslint": "pnpm publish --filter \"@zcytools/eslint-config-utils\"",
+    "pub:styleLint": "pnpm publish --filter \"@zcytools/stylelint-config-toolkit\""
     
   },
   "repository": {
