@@ -1,6 +1,6 @@
 {
   "name": "@zcytools/eslint-config-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "license": "MIT",
   "description": "在个人项目中统一 eslint 配置，将之封装为 npm 包",
