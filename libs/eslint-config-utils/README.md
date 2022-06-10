@@ -30,6 +30,22 @@ module.exports = {
 };
 ```
 
+```js
+// vue3
+// * eslint
+// * perttier
+// * typescript
+// * @typescript-eslint/parser  `使eslint 解析ts`
+// * @typescript-eslint/eslint-plugin  作为 eslint 默认规则的补充，提供了一些额外的适用于 ts 语法的规则
+
+// * eslint-plugin-vue   ESLint官方提供的Vue插件，可以检查 .vue文件中的语法错误
+// * eslint-config-prettier 所有格式相关的校验都交给 prettier 处理 `使prettier 与 eslint兼容的插件`
+// * eslint-plugin-prettier 使用eslint插件将prettier作为eslint规则执行
+module.exports = {
+  extends: ['utils/vue3'],
+};
+```
+
 
 ## tips 
 
