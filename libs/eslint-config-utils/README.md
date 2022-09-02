@@ -10,6 +10,14 @@
 
 ```shell
 yarn add -D @zcytools/eslint-config-utils
+
+```
+
+## with   prettier 
+```shell
+yarn add eslint-config-prettier -D
+yarn add eslint-plugin-prettier -D
+
 ```
 
 在 `eslintrc.js` 中配置
