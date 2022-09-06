@@ -9,18 +9,19 @@
 安装依赖
 
 ```shell
-yarn add -D @zcytools/eslint-config-utils
+yarn add -D @zcytools/eslint-config-utils eslint
 
 ```
 
 ## with   prettier 
 ```shell
+yarn add prettier -D
 yarn add eslint-config-prettier -D
 yarn add eslint-plugin-prettier -D
 
 ```
 
-在 `eslintrc.js` 中配置
+在 `.eslintrc.js` 中配置
 
 
 配置如下:
@@ -28,7 +29,7 @@ yarn add eslint-plugin-prettier -D
 - **js**
 ```js
 module.exports = {
-  extends: ['utils/index'],
+  extends: ['@zcytools/eslint-config-utils/index'],
 };
 ```
 - **ts**
