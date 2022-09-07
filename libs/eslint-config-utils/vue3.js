@@ -1,26 +1,30 @@
 module.exports = {
-  parser: "vue-eslint-parser",
+  parser: 'vue-eslint-parser',
   parserOptions: {
-    ecmaVersion: 2021,
-    parser: "@typescript-eslint/parser",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    requireConfigFile:false,
+    parser: {
+      js: '@babel/eslint-parser',
+      jsx: '@babel/eslint-parser',
+
+      ts: '@typescript-eslint/parser',
+      tsx: '@typescript-eslint/parser',
+    },
     ecmaFeatures: {
       jsx: true,
     },
   },
-  plugins: ["@typescript-eslint"],
   extends: [
-    "./base.js",
-    "plugin:vue/vue3-essential",
-    "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "plugin:prettier/recommended",
+    'plugin:vue/vue3-essential',
+    'plugin:@typescript-eslint/recommended',
+    './typescript.js'
   ],
-  plugins: ["vue", "@typescript-eslint", "prettier"],
+  plugins: ['vue', '@typescript-eslint'],
   globals: {
-    defineProps: "readonly",
-    defineEmits: "readonly",
-    defineExpose: "readonly",
-    withDefaults: "readonly",
+    defineProps: 'readonly',
+    defineEmits: 'readonly',
+    defineExpose: 'readonly',
+    withDefaults: 'readonly',
   },
 };
